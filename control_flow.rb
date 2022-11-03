@@ -8,13 +8,13 @@ end
 
 def hows_the_weather(temperature)
   if temperature < 40 
-    "brisk"
+    "It's brisk out there!"
   elsif temperature >= 40 && temperature <=65
-    "a little chilly"
-  elsif temperature >85
-    "too dang hot"
+    "It's a little chilly out there!"
+  elsif temperature > 85
+    "It's too dang hot out there!"
   else 
-   "perfect" 
+   "It's perfect out there!" 
   end
 end
 
@@ -41,7 +41,7 @@ def calculator(operation, num1, num2)
   when "/"
     num1 / num2
   else 
-    "Invalid Operation"
+    puts "Invalid operation!"
   end
 end
 
